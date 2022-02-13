@@ -1,0 +1,79 @@
+.card {
+    width: 250px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: rgb(31, 24, 41);
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title .note span, .icon,
+.title .date span, .icon,
+.values .money span, .icon,
+.values .box span, .icon,
+.values .boxes span, .icon {
+    font-size: 0.6rem;
+    margin: 3px;
+}
+
+.icon {
+    color: orange;
+}
+
+.note {
+    width: 55%;
+    display: flex;
+    justify-content: left;
+}
+
+.date {
+    width: 45%;
+    display: flex;
+    justify-content: right;
+
+}
+
+
+.address {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.address .from label, span,
+.address .to label, span {
+    font-size: .7rem;
+    color: rgb(160, 160, 159);
+}
+
+.from label, .to label {
+    width: 12%;
+    padding: 3px;
+}
+
+.from span, .to span {
+    width: 88%;
+    padding: 3px;
+}
+
+.values {
+    width: 100%;
+    height: 25%;
+}
