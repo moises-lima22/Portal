@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import Tasks from './components/card/Tasks'
+import Login from "./views/login/Login"
 
 const App = () => {
 
@@ -62,7 +63,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <Tasks tasks={tasks} />
+      <Login />
     </div>
   );
 }
