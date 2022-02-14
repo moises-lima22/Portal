@@ -13,8 +13,8 @@
     font-size: 1rem;
 }
 
-div{
+.App{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
 }
