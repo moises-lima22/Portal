@@ -1,0 +1,25 @@
+.container-login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.form-login {
+    width: 40%;
+    background-color: aquamarine;
+}
+
+.form-login img{
+    width: 290px;
+    height: 50px;
+}
+
+.img-login{
+    width: 60%;
+}
+
+.img{
+    width: 400px;
+    height: auto;
+}
