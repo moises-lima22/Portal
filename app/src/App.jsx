@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './App.css';
-import Tasks from './components/card/Tasks'
 import Login from "./views/login/Login"
 
 const App = () => {
