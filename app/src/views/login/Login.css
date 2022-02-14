@@ -1,25 +1,43 @@
-.container-login {
+/* Classes genéricas */
+
+.fx-center {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.container {
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-flow: row nowrap;
 }
 
-.form-login {
-    width: 40%;
-    background-color: aquamarine;
+
+
+.container-img {
+    width: 55%;
+    background-color: #649fc8;
 }
 
-.form-login img{
-    width: 290px;
-    height: 50px;
-}
-
-.img-login{
-    width: 60%;
-}
-
-.img{
+.container-img .img {
     width: 400px;
     height: auto;
+}
+
+.container-login {
+    width: 45%;
+    flex-flow: column nowrap;
+}
+
+.form-login {
+    width: 300px;
+    height: 400px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+.form-login img {
+    width: 290px;
+    height: 50px;
 }
